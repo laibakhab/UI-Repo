@@ -5,6 +5,7 @@ import Contact from "@/app/assets/mdi_account-alert-outline.png";
 import Search from "@/app/assets/akar-icons_search.png";
 import Heart from "@/app/assets/akar-icons_heart.png";
 import Shoping from "@/app/assets/ant-design_shopping-cart-outlined.png";
+import Link from 'next/link';
 
 export const Header = () => {
   return (
@@ -19,10 +20,10 @@ export const Header = () => {
         {/* Navigation Links */}
         <div className="hidden md:flex space-x-8">
           <ul className="flex space-x-6 text-gray-700 font-medium">
-            <li className="hover:text-gray-900 cursor-pointer">Home</li>
-            <li className="hover:text-gray-900 cursor-pointer">Shop</li>
-            <li className="hover:text-gray-900 cursor-pointer">Blog</li>
-            <li className="hover:text-gray-900 cursor-pointer">Contact</li>
+            <Link href ="#" ><li className="hover:text-gray-900 cursor-pointer">Home</li></Link>
+            <Link href ="/shop" ><li className="hover:text-gray-900 cursor-pointer">Shop</li></Link>
+            <Link href ="/blog" ><li className="hover:text-gray-900 cursor-pointer">Blog</li></Link>
+            <Link href ="/contact" ><li className="hover:text-gray-900 cursor-pointer">Contact</li></Link>
           </ul>
         </div>
 

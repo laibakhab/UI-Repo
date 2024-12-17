@@ -18,11 +18,11 @@ import Suport from "@/app/assets/customer-support.png"
     <div>
                         {/* top */}
         <div>
-          <div>
-          <Image src={Background} alt='Image' width={1440} height={316} className='top-[100px] '  />
+          <div className='relative'>
+          <Image src={Background} alt='Image' width={1280} height={316} className='w-full'   />
           </div>
-            <div className="absolute bottom-[150px] h-[443px]  mt-20">
-              <div className='   ml-[650px]  mb-10' >
+            <div className="absolute bottom-[150px] h-[443px] ">
+              <div className='   ml-[620px]  mb-10 mt-28' >
               <h2 className='w-[124px] h-[72px] top-[221px] left-[658px] font-medium  text-[48px] leading-[72px]'>Shop</h2>
           
               <span className=" flex items-center ">
@@ -39,10 +39,10 @@ import Suport from "@/app/assets/customer-support.png"
 
         {/* second nav */}
 
-    <div className='w-[1440px] h-[100px] top-[417px] bg-red-400 '>
+    <div className='w-full h-[100px] top-[417px]  '>
     <div className='flex'>        
             <div className='w-[85px]h-[30px] top-[452px] ml-60 left-[98px] mt-10 flex gap-5'>
-            <Image src={Image1} alt='Image' width={25} height={25} className='top-[454px] left-[98px]  ' />
+            {/* <Image src={Image1} alt='Image' width={25} height={25} className='top-[454px] left-[98px]  ' /> */}
             <p className='w-[48px] h-[30px] top-[452px] left-[135px] font-normal text-[20px] leading-[30px] text-black'> Filter</p>
             <div >
             <Image src={Image2} alt='Image' width={28} height={28} className='top-[453px] left-[206px]  ' />
@@ -51,15 +51,16 @@ import Suport from "@/app/assets/customer-support.png"
             <Image src={Image3} alt='Image' width={24} height={24} className='top-[455px] left-[258px]  ' />
             </div>
             <div className='w-[237px] h-[37px] top-[448px] left-[312px] '>
-              <hr className='border-black w-[20px] rotate-90 ml-[-20px]'/>
+              
             <p className='w-[203px] h-[24px] top-[455px] left-[346px] font-normal leading-6 '>Showing 1–16 of 32 results</p>
             <div  className='w-[37px] top-[448px] left-[312px] rotate-[-90]'/>
             </div>
+            
     </div>        
-        <div className='flex mt-10  '>
+        <div className='flex mt-9'>
 
           <div className='gap-10'>
-              <div className='w-[126px] h-[55px] top-[439px] left-[897px]  flex'>
+              <div className='w-[126px] h-[55px] top-[439px] ml-40  flex'>
                 <p className='w-[80px] h-[30px] top-[451px] left-[897px] font-normal text-[20px] leading-[30px]'> Show</p>
                 <div className=' w-[55px] h-[55px] top-[439px] left-[968px]  '>
                     <input type="text" placeholder='16' className='w-[30px] h-[30px] top-[451px] left-[986px] font-normal text-[20px] leading-[30px]' />
@@ -67,8 +68,8 @@ import Suport from "@/app/assets/customer-support.png"
               </div>
           </div>
 
-          <div className='gap-10 ml-20'>
-            <div className='w-[288px] h-[55px] top-[439px] left-[1052px] flex '>
+          <div className='gap-10 ml-32'>
+            <div className='w-[288px] h-[55px]  flex '>
                 <p className='w-[100px]  gap-[55px] h-[30px] top-[451px] left-[897px] font-normal text-[20px] leading-[30px]'> Short by</p>
                 <div className=' w-[55px] h-[55px] top-[439px] left-[968px]  '>
                     <input type="text" placeholder='Default' className='w-[100px] h-[30px] top-[451px] left-[986px] font-normal text-[20px] leading-[30px]' />
@@ -82,9 +83,9 @@ import Suport from "@/app/assets/customer-support.png"
     </div>
        
        {/* end */}
-      <div className='w-[1440px] h-[2051px]  bg-blue-300'>
-      <div className='w-[1244px] h-[2034px] top-[17px] left-[99px] gap-[40px] bg-green-300 ml-24 mt-10'>
-          <div className='w-[1236px] h-[446px] gap-[35px] mb-10 bg-red-400 flex '>
+      <div className='w-full h-[2051px]  '>
+      <div className='w-[1244px] h-[2034px] top-[17px]  gap-[40px]  ml-14 mt-10'>
+          <div className='w-[1236px] h-[446px] gap-[35px] mb-10  flex '>
               <div className='w-[285px] h-[301px] '>
                     <Image src={Image4} alt='Image' width={285} height={301} />
                   <div className='w-[285px] h-[145px] top-[301px] bg-[#d1d2d3]'>
@@ -149,7 +150,7 @@ import Suport from "@/app/assets/customer-support.png"
           </div>
 
 
-          <div className='w-[1236px] h-[446px] gap-[35px] bg-red-400 mb-10 flex '>
+          <div className='w-[1236px] h-[446px] gap-[35px]  mb-10 flex '>
               <div className='w-[285px] h-[301px] '>
                     <Image src={Image4} alt='Image' width={285} height={301} />
                   <div className='w-[285px] h-[145px] top-[301px] bg-[#d1d2d3]'>
@@ -213,7 +214,7 @@ import Suport from "@/app/assets/customer-support.png"
             
           </div>
 
-          <div className='w-[1236px] h-[446px] gap-[35px] bg-red-400 mb-10 flex '>
+          <div className='w-[1236px] h-[446px] gap-[35px]  mb-10 flex '>
               <div className='w-[285px] h-[301px] '>
                     <Image src={Image4} alt='Image' width={285} height={301} />
                   <div className='w-[285px] h-[145px] top-[301px] bg-[#d1d2d3]'>
@@ -277,7 +278,7 @@ import Suport from "@/app/assets/customer-support.png"
             
           </div>
 
-          <div className='w-[1236px] h-[446px] gap-[35px] mb-10 bg-red-400 flex '>
+          <div className='w-[1236px] h-[446px] gap-[35px] mb-10  flex '>
               <div className='w-[285px] h-[301px] '>
                     <Image src={Image4} alt='Image' width={285} height={301} />
                   <div className='w-[285px] h-[145px] top-[301px] bg-[#d1d2d3]'>
@@ -370,36 +371,36 @@ import Suport from "@/app/assets/customer-support.png"
 
 
       {/* last */}
-      <div className='w-[1440px] h-[270px] top-[2699px] left-[-3px] justify-between pt-[100px] pb-[100px] bg-[#FAF3EA]'>
-        <div className='w-[1334px] h-[70px] justify-between flex bg-slate-500 ml-14'>
+      <div className='w-full h-[270px] top-[2699px] left-[-3px] justify-between pt-[100px] pb-[100px] bg-[#FAF3EA]'>
+        <div className='w-[1320px] h-[70px] justify-between flex  px-10 ml-5'>
           
-          <div className='w-[337px] h-[70px] gap-[10px] bg-fuchsia-500 flex'>
+          <div className='w-[337px] h-[70px] gap-[10px]  flex'>
             <Image src={Trophy} alt="icon" width={60} height={60} />
-            <div className='w-[267px] h-[70px] gap-[2px] bg-red-300'>
+            <div className='w-[267px] h-[70px] gap-[2px] '>
               <p className='w-[157px] h-[38px] font-semibold text-[25px] leading-9'>High Quality</p>
               <p className='w-[267px] h-[30px] font-medium text-[20px] leading-[30px]'>crafted from top materials</p>
             </div>
           </div>
 
-          <div className='w-[328px] h-[70px] gap-[10px] bg-fuchsia-500 flex'>
+          <div className='w-[328px] h-[70px] gap-[10px]  flex'>
             <Image src={Guarantee} alt="icon" width={60} height={60} />
-            <div className='w-[267px] h-[70px] gap-[2px] bg-red-300'>
+            <div className='w-[267px] h-[70px] gap-[2px] '>
               <p className='w-[258px] h-[38px] font-semibold text-[25px] leading-9'>Warrant Protection</p>
               <p className='w-[126px] h-[30px] font-medium text-[20px] leading-[30px]'>Over 2 years</p>
             </div>
           </div>
 
-          <div className='w-[244px] h-[70px] gap-[10px] bg-fuchsia-500 flex'>
+          <div className='w-[244px] h-[70px] gap-[10px]  flex'>
             <Image src={Shipping} alt="icon" width={60} height={60} />
-            <div className='w-[267px] h-[70px] gap-[2px] bg-red-300'>
+            <div className='w-[267px] h-[70px] gap-[2px] '>
               <p className='w-[200px] h-[38px] font-semibold text-[25px] leading-9'>Free Shipping</p>
               <p className='w-[267px] h-[30px] font-medium text-[20px] leading-[30px]'>Oder over 150 $ </p>
             </div>
           </div>
           
-          <div className='w-[337px] h-[70px] gap-[10px] bg-fuchsia-500 flex'>
+          <div className='w-[337px] h-[70px] gap-[10px]  flex'>
             <Image src={Suport} alt="icon" width={60} height={60} />
-            <div className='w-[267px] h-[70px] gap-[2px] bg-red-300'>
+            <div className='w-[267px] h-[70px] gap-[2px] '>
               <p className='w-[200px] h-[38px] font-semibold text-[25px] leading-9'>24 / 7 Support</p>
               <p className='w-[267px] h-[30px] font-medium text-[20px] leading-[30px]'>Dedicated Support</p>
             </div>

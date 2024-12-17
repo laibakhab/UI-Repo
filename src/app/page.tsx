@@ -1,11 +1,12 @@
+import Herosec from '@/components/Herosec'
 import React from 'react'
-import BrowseRange from './components/Herosec'
+
 
 
 const page = () => {
   return (
     <div>
-      <BrowseRange />
+      <Herosec />
     </div>
   )
 }

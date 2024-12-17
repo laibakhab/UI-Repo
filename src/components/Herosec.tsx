@@ -23,8 +23,8 @@ const BrowseRange = () => {
     <div className="px-4 md:px-8 lg:px-16">
       {/* First Section */}
       <div className="relative h-[500px] w-full lg:h-[80vh]">
-        <Image src={Background} alt="Background Image" layout="fill" objectFit="cover" className="absolute" />
-        <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 p-6 lg:p-12 bg-[#FFF5EB] rounded-lg w-11/12 max-w-md lg:max-w-lg">
+        <Image src={Background} alt="Background Image" layout="fill" objectFit="cover" className="absolute w-full" />
+        <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 p-6 lg:p-12  bg-[#FFF5EB] rounded-lg w-11/12 max-w-md lg:max-w-lg">
           <span className="text-sm font-medium text-gray-700">New Arrival</span>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B8860B] mt-4">
             Discover Our <br /> New Collection
