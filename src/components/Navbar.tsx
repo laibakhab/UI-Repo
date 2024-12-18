@@ -10,7 +10,7 @@ import Link from 'next/link';
 export const Header = () => {
   return (
     <div className="w-full bg-white">
-      {/* Header Container */}
+         {/* Header Container */}
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-20">
         {/* Logo */}
         <div>
@@ -41,13 +41,13 @@ export const Header = () => {
         <Image src={Logo} alt="Logo" width={126} height={40} />
         {/* Hamburger Menu */}
         <div className="space-y-1 cursor-pointer">
-          <div className="w-6 h-1 bg-gray-700"></div>
+          <div className="w-6 h-1 bg-grey-700"></div>
           <div className="w-6 h-1 bg-gray-700"></div>
           <div className="w-6 h-1 bg-gray-700"></div>
         </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default Header;
