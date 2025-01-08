@@ -27,7 +27,7 @@ const BrowseRange = () => {
         <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 p-6 lg:p-12  bg-[#FFF5EB] rounded-lg w-11/12 max-w-md lg:max-w-lg">
           <span className="text-sm font-medium text-gray-700">New Arrival</span>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#B8860B] mt-4">
-            Discover Our <br /> New Collection!!!!!!!!
+            Discover Our <br /> New Collection!
           </h1>
           <p className="text-gray-600 mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
